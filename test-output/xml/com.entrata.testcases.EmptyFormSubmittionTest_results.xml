@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="17.348">
+           time="15.123">
   <properties />
   
   
-            <testcase name="emptyFormSubmittionTest" time="17.348" classname="com.entrata.testcases.EmptyFormSubmittionTest" />
+            <testcase name="emptyFormSubmittionTest" time="15.123" classname="com.entrata.testcases.EmptyFormSubmittionTest" />
       
 </testsuite>

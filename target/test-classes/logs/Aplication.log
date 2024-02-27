@@ -875,3 +875,56 @@ expected [Privacy Policies] but found []
 27/02/2024 14:02:59 devpinoyLogger   Clicked Successfully On_  ScheduleFinal_XPATH
 27/02/2024 14:03:00 devpinoyLogger Test Case_  EMPTYFORMSUBMITTIONTEST _Successfully Passed
 27/02/2024 14:03:05 devpinoyLogger test execution completed !!!
+27/02/2024 18:01:59 devpinoyLogger Config file loaded !!!
+27/02/2024 18:01:59 devpinoyLogger OR file loaded !!!
+27/02/2024 18:02:02 devpinoyLogger Chrome Launched !!!
+27/02/2024 18:02:16 devpinoyLogger Navigated to : https://www.entrata.com/
+27/02/2024 18:02:21 devpinoyLogger   Clicked Successfully On_  Cookies_XPATH
+27/02/2024 18:02:21 devpinoyLogger Test Case_  HOME_HEADEROPTIONSTEST _Successfully Passed
+27/02/2024 18:02:37 devpinoyLogger test execution completed !!!
+27/02/2024 18:02:37 devpinoyLogger Test Case_  SIGNINPAGEFOOTERTEST _Successfully Started
+27/02/2024 18:02:37 devpinoyLogger Config file loaded !!!
+27/02/2024 18:02:37 devpinoyLogger OR file loaded !!!
+27/02/2024 18:02:38 devpinoyLogger Chrome Launched !!!
+27/02/2024 18:02:47 devpinoyLogger Navigated to : https://www.entrata.com/
+27/02/2024 18:02:47 devpinoyLogger   Clicked Successfully On_  Cookies_XPATH
+27/02/2024 18:02:49 devpinoyLogger   Clicked Successfully On_  SignIn_XPATH
+27/02/2024 18:02:52 devpinoyLogger Successfully extracted value 
+27/02/2024 18:02:54 devpinoyLogger Successfully extracted value 
+27/02/2024 18:02:56 devpinoyLogger Successfully extracted value 
+27/02/2024 18:02:56 devpinoyLogger Test Case_  SIGNINPAGEFOOTERTEST _Successfully Passed
+27/02/2024 18:03:00 devpinoyLogger test execution completed !!!
+27/02/2024 18:03:00 devpinoyLogger Test Case_  BASECAMPTEST _Successfully Started
+27/02/2024 18:03:00 devpinoyLogger Config file loaded !!!
+27/02/2024 18:03:00 devpinoyLogger OR file loaded !!!
+27/02/2024 18:03:01 devpinoyLogger Chrome Launched !!!
+27/02/2024 18:03:09 devpinoyLogger Navigated to : https://www.entrata.com/
+27/02/2024 18:03:10 devpinoyLogger   Clicked Successfully On_  Cookies_XPATH
+27/02/2024 18:03:10 devpinoyLogger   Clicked Successfully On_  BaseCamp_XPATH
+27/02/2024 18:03:10 devpinoyLogger Parent window is stored as 0008CFD8AAAFDB08F317C4A24F68C8CE
+27/02/2024 18:03:11 devpinoyLogger Swiched to window nameProperty Management Software | Entrata with id 0008CFD8AAAFDB08F317C4A24F68C8CE
+27/02/2024 18:03:16 devpinoyLogger Swiched to window nameBase Camp 2024 | Entrata with id E9ACB92378661C0BCADFB4DFBA93F038
+27/02/2024 18:03:16 devpinoyLogger   Clicked Successfully On_  MenuOpt_XPATH
+27/02/2024 18:03:17 devpinoyLogger   Clicked Successfully On_  RegMenuOpt_XPATH
+27/02/2024 18:03:19 devpinoyLogger   Clicked Successfully On_  RegisterNow_XPATH
+27/02/2024 18:03:23 devpinoyLogger Sent value as: Test    In field: FirstName_XPATH
+27/02/2024 18:03:23 devpinoyLogger Sent value as: Automation    In field: LastName_XPATH
+27/02/2024 18:03:23 devpinoyLogger Sent value as: TestABC    In field: Company_XPATH
+27/02/2024 18:03:23 devpinoyLogger Sent value as: EntrataTest    In field: Title_XPATH
+27/02/2024 18:03:23 devpinoyLogger Sent value as: test@gmail.com    In field: Email_XPATH
+27/02/2024 18:03:23 devpinoyLogger Sent value as: 7.765454434E9    In field: Mobile_XPATH
+27/02/2024 18:03:23 devpinoyLogger   Clicked Successfully On_  Cancel_XPATH
+27/02/2024 18:03:24 devpinoyLogger Swiched to parent window Property Management Software | Entrata with ID 0008CFD8AAAFDB08F317C4A24F68C8CE
+27/02/2024 18:03:24 devpinoyLogger Test Case_  BASECAMPTEST _Successfully Passed
+27/02/2024 18:03:40 devpinoyLogger test execution completed !!!
+27/02/2024 18:03:40 devpinoyLogger Test Case_  EMPTYFORMSUBMITTIONTEST _Successfully Started
+27/02/2024 18:03:40 devpinoyLogger Config file loaded !!!
+27/02/2024 18:03:40 devpinoyLogger OR file loaded !!!
+27/02/2024 18:03:41 devpinoyLogger Chrome Launched !!!
+27/02/2024 18:03:48 devpinoyLogger Navigated to : https://www.entrata.com/
+27/02/2024 18:03:48 devpinoyLogger   Clicked Successfully On_  Cookies_XPATH
+27/02/2024 18:03:49 devpinoyLogger   Clicked Successfully On_  RecidentPay_XPATH
+27/02/2024 18:03:54 devpinoyLogger   Clicked Successfully On_  ScheduleDemoPay_XPATH
+27/02/2024 18:03:55 devpinoyLogger   Clicked Successfully On_  ScheduleFinal_XPATH
+27/02/2024 18:03:55 devpinoyLogger Test Case_  EMPTYFORMSUBMITTIONTEST _Successfully Passed
+27/02/2024 18:03:59 devpinoyLogger test execution completed !!!
