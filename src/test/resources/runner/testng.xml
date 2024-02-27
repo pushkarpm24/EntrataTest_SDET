@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.entrata.listeners.CustomListeners" />
+	</listeners>
+
+	
+	<test name="Home page headers validation Test Cases">
+		<classes>
+			<class name="com.entrata.testcases.Home_HeaderOptionsTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Sign In Page Footer Links Validation Test">
+		<classes>
+			<class name="com.entrata.testcases.SignInPageFooterTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Base Camp Regristrastion Page Validation Test">
+		<classes>
+			<class name="com.entrata.testcases.BaseCampTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Empty Form Submition Validation Test">
+		<classes>
+			<class name="com.entrata.testcases.EmptyFormSubmittionTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

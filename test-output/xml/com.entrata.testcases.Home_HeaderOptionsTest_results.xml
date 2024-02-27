@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Home page headers validation Test Cases"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="26.480">
+  <properties />
+  
+  
+            <testcase name="home_HeaderOptionsTest" time="26.480" classname="com.entrata.testcases.Home_HeaderOptionsTest" />
+      
+</testsuite>

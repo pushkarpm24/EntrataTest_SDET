@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Basics]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.entrata.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Home page headers validation Test Cases(failed)">
+    <classes>
+      <class name="com.entrata.testcases.Home_HeaderOptionsTest">
+        <methods>
+          <include name="home_HeaderOptionsTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.entrata.testcases.Home_HeaderOptionsTest -->
+    </classes>
+  </test> <!-- Home page headers validation Test Cases(failed) -->
+  <test thread-count="5" name="Sign In Page Footer Links Validation Test(failed)">
+    <classes>
+      <class name="com.entrata.testcases.SignInPageFooterTest">
+        <methods>
+          <include name="signInPageFooterTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.entrata.testcases.SignInPageFooterTest -->
+    </classes>
+  </test> <!-- Sign In Page Footer Links Validation Test(failed) -->
+  <test thread-count="5" name="Base Camp Regristrastion Page Validation Test(failed)">
+    <classes>
+      <class name="com.entrata.testcases.BaseCampTest">
+        <methods>
+          <include name="baseCampTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.entrata.testcases.BaseCampTest -->
+    </classes>
+  </test> <!-- Base Camp Regristrastion Page Validation Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->
