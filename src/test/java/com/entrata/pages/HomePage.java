@@ -13,7 +13,6 @@ public class HomePage extends TestBase {
 	public void validateProductsTitles(String Option, String Title) throws IOException, InterruptedException {
 
 		ak.mouseHover(Option);
-		Thread.sleep(2000);
 
 		WebElement DropdownTitle = driver.findElement(
 				By.xpath("//div[@class='fat-nav-grid']/div[@class='nav-group']/a[contains(text(),'" + Title + "')]"));
@@ -25,7 +24,6 @@ public class HomePage extends TestBase {
 	public void validateHeadersTitle(String Option, String Title) throws IOException, InterruptedException {
 
 		ak.mouseHover(Option);
-		Thread.sleep(2000);
 
 		WebElement DropdownTitle = driver.findElement(
 				By.xpath("//div[@class='header-drop-nav']/a[contains(.,'"+Title+"')]"));
@@ -49,7 +47,6 @@ public class HomePage extends TestBase {
 	public void clickOnRecidentPay(String Option) throws IOException, InterruptedException {
 		
 		ak.mouseHover(Option);
-		Thread.sleep(2000);
 		
 		ak.click("RecidentPay_XPATH");
 		
@@ -61,7 +58,6 @@ public class HomePage extends TestBase {
 		
 		ak.click("ScheduleFinal_XPATH");
 		
-		Thread.sleep(2000);
 		
 	}
 	

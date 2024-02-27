@@ -33,6 +33,7 @@ public class EmptyFormSubmittionTest extends TestBase{
 		home.submitEmptyForm();
 		
 		// Validate Error Message After Empty Submition
+		ak.ExWait("ErrorMsg_XPATH");
 		Assert.assertTrue(driver.findElement(By.xpath(OR.getProperty("ErrorMsg_XPATH"))).isDisplayed());
 
 		

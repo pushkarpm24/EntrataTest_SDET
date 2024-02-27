@@ -16,16 +16,6 @@
       </class> <!-- com.entrata.testcases.Home_HeaderOptionsTest -->
     </classes>
   </test> <!-- Home page headers validation Test Cases(failed) -->
-  <test thread-count="5" name="Sign In Page Footer Links Validation Test(failed)">
-    <classes>
-      <class name="com.entrata.testcases.SignInPageFooterTest">
-        <methods>
-          <include name="signInPageFooterTest" invocation-numbers="0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.entrata.testcases.SignInPageFooterTest -->
-    </classes>
-  </test> <!-- Sign In Page Footer Links Validation Test(failed) -->
   <test thread-count="5" name="Base Camp Regristrastion Page Validation Test(failed)">
     <classes>
       <class name="com.entrata.testcases.BaseCampTest">
@@ -36,4 +26,14 @@
       </class> <!-- com.entrata.testcases.BaseCampTest -->
     </classes>
   </test> <!-- Base Camp Regristrastion Page Validation Test(failed) -->
+  <test thread-count="5" name="Empty Form Submition Validation Test(failed)">
+    <classes>
+      <class name="com.entrata.testcases.EmptyFormSubmittionTest">
+        <methods>
+          <include name="emptyFormSubmittionTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.entrata.testcases.EmptyFormSubmittionTest -->
+    </classes>
+  </test> <!-- Empty Form Submition Validation Test(failed) -->
 </suite> <!-- Failed suite [Data Driven Basics] -->

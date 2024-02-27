@@ -1,5 +1,0 @@
-# Created at 2024-02-27T11:22:03.017
-Boot Manifest-JAR contains absolute paths in classpath 'D:\HDFC_Automation\EntrataTest_SDET\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

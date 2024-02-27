@@ -5,7 +5,8 @@ This framework can be executed from local and cmd.
 
 **How to execute from cmd/terminal?**
 
-==> To run the testng.xml suite, add the testng.xml in pom.xml and then run "mvn verify" from cmd or terminal
+==> To run the testng.xml suite, add the testng.xml in pom.xml then navigate to project dir and run "mvn verify" from cmd or terminal
+==> If Face any issue update the mvn project and again execute the same command.
 
 **Reporting**
 

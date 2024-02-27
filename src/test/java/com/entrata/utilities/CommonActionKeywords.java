@@ -97,10 +97,10 @@ public class CommonActionKeywords extends TestBase {
 			element = driver.findElement(By.xpath("//*[normalize-space()='" + value + "']"));
 
 			Actions a = new Actions(driver);
-			// ExWait(locator);
 			// a.moveToElement(driver.findElement(By.xpath(OR.getProperty(locator)))).perform();
 
 			ExWait(element);
+			Thread.sleep(1000);
 			a.moveToElement(element).click().build().perform();
 
 			CustomListeners.testReport.get().log(Status.INFO, "Mouse Hover in : " + value);
@@ -289,6 +289,8 @@ public class CommonActionKeywords extends TestBase {
 	public String EXTRCT(String object) {
 
 		try {
+			
+			ExWait(object);
 			element = driver.findElement(By.xpath(OR.getProperty(object)));
 
 			flash(element, driver);

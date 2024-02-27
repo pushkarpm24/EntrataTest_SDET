@@ -17,7 +17,6 @@ public class SignInPage extends TestBase {
 
 		driver.navigate().back();
 		//ak.click("PrivacyPolicy_XPATH");
-		Thread.sleep(2000);
 		ak.mouseHoverAndClick("Privacy Policy");
 
 	}
@@ -26,7 +25,6 @@ public class SignInPage extends TestBase {
 
 		driver.navigate().back();
 		//ak.click("WebAcc_XPATH");
-		Thread.sleep(2000);
 		ak.mouseHoverAndClick("Web Accessibility Statement");
 
 	}

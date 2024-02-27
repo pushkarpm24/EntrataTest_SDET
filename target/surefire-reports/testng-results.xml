@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T11:22:04 IST" name="Data Driven Basics" finished-at="2024-02-27T11:23:47 IST" duration-ms="103406">
+  <suite name="Data Driven Basics" duration-ms="112170" started-at="2024-02-27T14:01:13 IST" finished-at="2024-02-27T14:03:05 IST">
     <groups>
     </groups>
-    <test started-at="2024-02-27T11:22:04 IST" name="Home page headers validation Test Cases" finished-at="2024-02-27T11:22:47 IST" duration-ms="42807">
+    <test name="Home page headers validation Test Cases" duration-ms="31183" started-at="2024-02-27T14:01:13 IST" finished-at="2024-02-27T14:01:44 IST">
       <class name="com.entrata.testcases.Home_HeaderOptionsTest">
-        <test-method signature="home_HeaderOptionsTest(java.util.Hashtable)[pri:0, instance:com.entrata.testcases.Home_HeaderOptionsTest@1a6f2363]" started-at="2024-02-27T11:22:04 IST" name="home_HeaderOptionsTest" data-provider="dp" finished-at="2024-02-27T11:22:31 IST" duration-ms="27189" status="PASS">
+        <test-method status="PASS" signature="home_HeaderOptionsTest(java.util.Hashtable)[pri:0, instance:com.entrata.testcases.Home_HeaderOptionsTest@63787180]" name="home_HeaderOptionsTest" duration-ms="14771" started-at="2024-02-27T14:01:13 IST" description="Verify Home Page Header Options" data-provider="dp" finished-at="2024-02-27T14:01:28 IST">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_HeaderOptionsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testcases.Home_HeaderOptionsTest@1a6f2363]" started-at="2024-02-27T11:22:46 IST" name="tearDown" finished-at="2024-02-27T11:22:47 IST" duration-ms="482" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.entrata.testcases.Home_HeaderOptionsTest@63787180]" name="tearDown" is-config="true" duration-ms="821" started-at="2024-02-27T14:01:43 IST" finished-at="2024-02-27T14:01:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.entrata.testcases.Home_HeaderOptionsTest -->
     </test> <!-- Home page headers validation Test Cases -->
-    <test started-at="2024-02-27T11:22:47 IST" name="Sign In Page Footer Links Validation Test" finished-at="2024-02-27T11:23:08 IST" duration-ms="21643">
+    <test name="Sign In Page Footer Links Validation Test" duration-ms="22052" started-at="2024-02-27T14:01:45 IST" finished-at="2024-02-27T14:02:07 IST">
       <class name="com.entrata.testcases.SignInPageFooterTest">
-        <test-method signature="signInPageFooterTest(java.util.Hashtable)[pri:0, instance:com.entrata.testcases.SignInPageFooterTest@702ed190]" started-at="2024-02-27T11:22:47 IST" name="signInPageFooterTest" data-provider="dp" finished-at="2024-02-27T11:23:04 IST" duration-ms="17641" status="PASS">
+        <test-method status="PASS" signature="signInPageFooterTest(java.util.Hashtable)[pri:0, instance:com.entrata.testcases.SignInPageFooterTest@6ee6f53]" name="signInPageFooterTest" duration-ms="17375" started-at="2024-02-27T14:01:45 IST" description="Verify Sigh In Footer Links are Working Fine" data-provider="dp" finished-at="2024-02-27T14:02:02 IST">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInPageFooterTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testcases.SignInPageFooterTest@702ed190]" started-at="2024-02-27T11:23:08 IST" name="tearDown" finished-at="2024-02-27T11:23:08 IST" duration-ms="494" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.entrata.testcases.SignInPageFooterTest@6ee6f53]" name="tearDown" is-config="true" duration-ms="853" started-at="2024-02-27T14:02:06 IST" finished-at="2024-02-27T14:02:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.entrata.testcases.SignInPageFooterTest -->
     </test> <!-- Sign In Page Footer Links Validation Test -->
-    <test started-at="2024-02-27T11:23:08 IST" name="Base Camp Regristrastion Page Validation Test" finished-at="2024-02-27T11:23:47 IST" duration-ms="38671">
+    <test name="Base Camp Regristrastion Page Validation Test" duration-ms="36350" started-at="2024-02-27T14:02:07 IST" finished-at="2024-02-27T14:02:43 IST">
       <class name="com.entrata.testcases.BaseCampTest">
-        <test-method signature="baseCampTest(java.util.Hashtable)[pri:0, instance:com.entrata.testcases.BaseCampTest@5a4bef8]" started-at="2024-02-27T11:23:08 IST" name="baseCampTest" data-provider="dp" finished-at="2024-02-27T11:23:32 IST" duration-ms="23325" status="PASS">
+        <test-method status="PASS" signature="baseCampTest(java.util.Hashtable)[pri:0, instance:com.entrata.testcases.BaseCampTest@797cf65c]" name="baseCampTest" duration-ms="20372" started-at="2024-02-27T14:02:07 IST" description="Verify Registration Page Fields and nevagition" data-provider="dp" finished-at="2024-02-27T14:02:27 IST">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseCampTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testcases.BaseCampTest@5a4bef8]" started-at="2024-02-27T11:23:47 IST" name="tearDown" finished-at="2024-02-27T11:23:47 IST" duration-ms="606" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.entrata.testcases.BaseCampTest@797cf65c]" name="tearDown" is-config="true" duration-ms="810" started-at="2024-02-27T14:02:42 IST" finished-at="2024-02-27T14:02:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.entrata.testcases.BaseCampTest -->
     </test> <!-- Base Camp Regristrastion Page Validation Test -->
+    <test name="Empty Form Submition Validation Test" duration-ms="21891" started-at="2024-02-27T14:02:43 IST" finished-at="2024-02-27T14:03:05 IST">
+      <class name="com.entrata.testcases.EmptyFormSubmittionTest">
+        <test-method status="PASS" signature="emptyFormSubmittionTest(java.util.Hashtable)[pri:0, instance:com.entrata.testcases.EmptyFormSubmittionTest@7862f56]" name="emptyFormSubmittionTest" duration-ms="17172" started-at="2024-02-27T14:02:43 IST" description="Verify Empty Form Submittion Throws Error" data-provider="dp" finished-at="2024-02-27T14:03:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{URL=https://www.entrata.com/, Test Case ID=TC_01}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFormSubmittionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.entrata.testcases.EmptyFormSubmittionTest@7862f56]" name="tearDown" is-config="true" duration-ms="869" started-at="2024-02-27T14:03:04 IST" finished-at="2024-02-27T14:03:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.entrata.testcases.EmptyFormSubmittionTest -->
+    </test> <!-- Empty Form Submition Validation Test -->
   </suite> <!-- Data Driven Basics -->
 </testng-results>

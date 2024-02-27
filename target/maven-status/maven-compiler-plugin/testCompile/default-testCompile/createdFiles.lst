@@ -1,12 +1,3 @@
-com\entrata\testcases\SignInPageFooterTest.class
-com\entrata\testcases\Home_HeaderOptionsTest.class
-com\entrata\pages\BaseCampPage.class
-com\entrata\testcases\BaseCampTest.class
 com\entrata\pages\SignInPage.class
-com\entrata\pages\HomePage.class
-com\entrata\utilities\TestUtil.class
-com\entrata\listeners\CustomListeners.class
-com\entrata\utilities\CommonActionKeywords.class
-com\entrata\utilities\ExcelReader.class
 com\entrata\utilities\ExtentManager.class
 com\entrata\base\TestBase.class

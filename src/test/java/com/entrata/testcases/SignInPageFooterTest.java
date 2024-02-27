@@ -31,6 +31,7 @@ public class SignInPageFooterTest extends TestBase {
 
 		home.closeCookie();
 		home.clickOnSignIn();
+		
 		si.clickONTermsOfUse();
 
 		// Validate Terms Of Use Footer link

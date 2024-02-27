@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="27.189">
+           time="14.771">
   <properties />
   
   
-            <testcase name="home_HeaderOptionsTest" time="27.189" classname="com.entrata.testcases.Home_HeaderOptionsTest" />
+            <testcase name="home_HeaderOptionsTest" time="14.771" classname="com.entrata.testcases.Home_HeaderOptionsTest" />
       
 </testsuite>

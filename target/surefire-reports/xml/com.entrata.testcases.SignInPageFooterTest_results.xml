@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="17.641">
+           time="17.375">
   <properties />
   
   
-            <testcase name="signInPageFooterTest" time="17.641" classname="com.entrata.testcases.SignInPageFooterTest" />
+            <testcase name="signInPageFooterTest" time="17.375" classname="com.entrata.testcases.SignInPageFooterTest" />
       
 </testsuite>

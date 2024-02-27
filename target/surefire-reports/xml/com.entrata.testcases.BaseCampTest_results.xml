@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="23.325">
+           time="20.372">
   <properties />
   
   
-            <testcase name="baseCampTest" time="23.325" classname="com.entrata.testcases.BaseCampTest" />
+            <testcase name="baseCampTest" time="20.372" classname="com.entrata.testcases.BaseCampTest" />
       
 </testsuite>
